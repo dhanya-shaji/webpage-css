@@ -112,6 +112,21 @@ margin-top: 50px;
 
     
 }
+.lowerbut1
+{
+    background-color: red;
+    border-width: 0px;
+   border-radius: 0px;
+}
+.lowerbut2
+{
+    background-color:black;
+    border-width: 0px;
+    border-radius: 0px;
+}
+.bot{
+color: red;
+}
 @media screen and (max-width: 600px) {
 
     .top-head
