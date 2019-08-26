@@ -3,6 +3,14 @@
     background-color: black !important;
     color: white !important;
 }
+.section02
+{
+    background-image: url("../images/bg.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
 
 .second
 {
@@ -19,18 +27,18 @@ color: black !important;
 {
     color: black;
     margin-top:140px;
-    margin-left:120px
+    margin-left:120px;
     bold;
 }
 .dec{
     color:red;
-    margin-left: 120px
+    margin-left: 120px;
     bold;
 }
 .dec1
 {
     color:black;
-    margin-left: 120px
+    margin-left: 120px;
 }
 .but1
 {
@@ -100,7 +108,9 @@ margin-top: 50px;
 }  
 #mbutton
 {
-
+   margin-left:120px;
+   margin-top: 25px;
+   margin-bottom: 25px;
    background-color: red;
    border-width: 0px;
    border-radius: 0px;
@@ -116,32 +126,61 @@ margin-top: 50px;
 {
     background-color: red;
     border-width: 0px;
-   border-radius: 0px;
+    border-radius: 0px;
+    margin-left: 110px;
 }
 .lowerbut2
 {
     background-color:black;
     border-width: 0px;
+    max-width: 250px;
+    margin-left:20px;
     border-radius: 0px;
+    padding-right: 16px;
 }
 .bot{
 color: red;
+}
+.hero-image {
+    background-image: url("../images/bg-fade.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .img-inner{
+    margin: 10px auto;
+    height: 70px;
+    width: 60px;
+    background-color: red;
+}
+.ptext{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.htext{
+    margin-top: 50px;
+    margin-left: 40px;
 }
 @media screen and (max-width: 600px) {
 
     .top-head
 {
     color: black;
-    font-size: 10px;
+    font-size: 20px;
+    margin-left:120px;
 }
 .dec{
     color:red;
-    font-size: 10px;
+    font-size: 20px;
+    margin-left:120px;
 }
 .dec1
 {
     color:black;
     font-size: 10px;
+    text-align: left;
 }
 .but1
 {
@@ -163,4 +202,43 @@ color: red;
    border-width: 0px;
    border-radius: 0px;
 }
+.section02{
+    font-size: smaller;
+    
+}
+
+.section03{
+    margin-top: 500px;
+    
+}
+#mbutton
+{
+   margin-left:15px;
+   margin-top:5px;
+   margin-bottom:5px;
+  
+}
+.lowerbut1
+{
+    
+    margin-left: 10px;
+}
+.lowerbut2
+{
+    
+
+    margin-left:5px;
+    border-radius: 0px;
+    padding-right: 5px;
+    background-color: #f7f5f6;
+    color:black;
+}
+.ptext{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.htext{
+    margin-top: 50px;
+    margin-left: 20px;
+
 }
