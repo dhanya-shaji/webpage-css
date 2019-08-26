@@ -178,6 +178,33 @@ color: red;
     margin-top: 50px;
     margin-left: 40px;
 }
+.bottamnavright
+{
+    text-align: right;
+}
+.een {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .een:hover img {
+    opacity: 0;
+  }
+  
+  .een p {
+    position: absolute;
+    top: 45%;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  #i {
+    position: relative;
+    z-index: 100;
+    transition: opacity linear 0.5s;
+  }
 @media screen and (max-width: 600px) {
 
     .top-head
