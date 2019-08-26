@@ -1,0 +1,151 @@
+.firstnavbar
+{
+    background-color: black !important;
+    color: white !important;
+}
+
+.second
+{
+color: black !important;
+}
+.card
+{
+    border-width: 0px;
+}
+.backgroud-red{
+    background-color: red;
+}
+.top-head
+{
+    color: black;
+    margin-top:140px;
+    margin-left:120px
+    bold;
+}
+.dec{
+    color:red;
+    margin-left: 120px
+    bold;
+}
+.dec1
+{
+    color:black;
+    margin-left: 120px
+}
+.but1
+{
+    background-color: red;
+    border-width: 0px;
+    border-radius: 0px;
+}
+.but2
+{
+    background-color:black;
+    border-width: 0px;
+    max-width: 250px;
+    margin-left:20px;
+    border-radius: 0px;
+    padding-right: 16px;
+}
+.img-inner{
+    margin: 10px auto;
+    height: 70px;
+    width: 60px;
+}
+.small1div
+{
+    margin-top: 30px;
+    color: black;
+}
+.rightdiv
+{
+    background-position:center right;
+    background-repeat:no-repeat;
+    color: black;
+    margin-top: 50px;
+}
+.smalldiv
+{
+    background-color: red;
+    max-width:100px;
+    max-height: 130px; 
+     background-position:right;
+    /*background-repeat:no-repeat;
+    margin-top: 30px; 
+    align-items:center;
+    margin-bottom: 2px;*/
+   
+}
+.small1div
+{
+    margin-top: 30px;
+    color: black;
+}
+.section4
+{
+background-position:center right;
+background-repeat:no-repeat;
+color: black;
+margin-top: 50px;
+}
+.section1{
+    background-image: url('../images/pen.png');
+    background-repeat:no-repeat;
+    background-position: center right;
+    background-color:#f7f5f6;
+}
+.middleclass
+{
+    background-position: center right;
+}  
+#mbutton
+{
+
+   background-color: red;
+   border-width: 0px;
+   border-radius: 0px;
+}
+.bottamnav
+{
+    background-color: black;
+    color: white;
+
+    
+}
+@media screen and (max-width: 600px) {
+
+    .top-head
+{
+    color: black;
+    font-size: 10px;
+}
+.dec{
+    color:red;
+    font-size: 10px;
+}
+.dec1
+{
+    color:black;
+    font-size: 10px;
+}
+.but1
+{
+    background-color: red;
+    border-width: 0px;
+    border-radius: 0px;
+}
+.but2
+{
+    background-color:black;
+    border-width: 0px;
+
+}
+#mbutton
+{
+
+ 
+   background-color: red;
+   border-width: 0px;
+   border-radius: 0px;
+}
+}
